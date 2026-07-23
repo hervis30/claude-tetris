@@ -47,6 +47,9 @@ jobs:
                - Causa raíz o hipótesis técnica.
                - Enfoque sugerido para la solución (pasos de alto nivel).
                - Información faltante, si la hay.
+               - El comentario debe estar en formato Markdown válido que GitHub pueda
+                 renderizar correctamente (encabezados con #, listas con -, código con
+                 backticks simples o bloques ```, negritas con **, etc.).
                - Empieza el cuerpo del comentario con el marcador oculto en la primera línea:
                  `<!-- claude-diagnosis -->`
                - Publica/actualiza con:
